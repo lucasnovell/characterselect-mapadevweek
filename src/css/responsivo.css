@@ -1,0 +1,111 @@
+@media (max-width: 1600px) {
+  /* ---------TITULO--------- */
+  .cabecalho .titulo {
+    font-size: 3.3rem;
+  }
+
+  /* ---------PERSONAGENS GRANDES--------- */
+  .selecao-de-personagens .personagem-grande {
+    height: 50rem;
+  }
+
+  .selecao-de-personagens .personagem-grande img {
+    height: 50rem;
+  }
+
+  .selecao-de-personagens .personagem-grande .nome h3, .selecao-de-personagens .personagem-grande .nome-jogador-2 h3 {
+    font-size: 2.7rem;
+  }
+
+  /* ---------LISTA DE PERSONAGENS--------- */
+  .selecao-de-personagens .lista-de-personagens {
+    max-width: 50rem;
+  }
+
+  .selecao-de-personagens .lista-de-personagens .personagem {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+@media (max-width: 900px) {
+  /* ---------FUNDO--------- */
+  body::before {
+    background-image: url('../imagens/bg-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    opacity: 1;
+  }
+
+  main {
+    padding: 0 1rem;
+
+    justify-content: start;
+  }
+
+  /* ---------TITULO--------- */
+  .cabecalho .titulo {
+    font-size: 3rem;
+  }
+
+  /* ---------LISTA DE PERSONAGENS--------- */
+  .selecao-de-personagens .lista-de-personagens {
+    max-width: 40rem;
+  }
+
+  .selecao-de-personagens .lista-de-personagens .personagem {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  /* ---------PERSONAGENS GRANDES--------- */
+  .selecao-de-personagens .personagem-grande img {
+    height: 40rem;
+    top: 55%;
+    left: 68%;
+  }
+
+  .selecao-de-personagens .personagem-grande.personagem-jogador-2 img {
+    left: 38%;
+  }
+
+  .selecao-de-personagens .personagem-grande .nome h3 {
+    left: 3rem;
+  }
+
+  .selecao-de-personagens .personagem-grande .nome::before {
+    left: 3rem;
+  }
+
+  .selecao-de-personagens .personagem-grande .nome-jogador-2 h3 {
+    left: -3rem;
+  }
+
+  .selecao-de-personagens .personagem-grande .nome-jogador-2::before {
+    left: -3rem;
+  }
+}
+
+@media (max-width: 600px){
+  /* ---------TITULO--------- */
+  .cabecalho .titulo {
+    font-size: 2rem;
+  }
+
+  /* ---------PERSONAGENS GRANDES--------- */
+  .selecao-de-personagens .personagem-grande {
+    display: none;
+  }
+
+  /* ---------LISTA DE PERSONAGENS--------- */
+  .selecao-de-personagens .lista-de-personagens {
+    max-width: 30rem;
+  }
+
+  .selecao-de-personagens .lista-de-personagens .personagem {
+    width: 9rem;
+    height: 9rem;
+  }
+}
